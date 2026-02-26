@@ -1,0 +1,9 @@
+- Order execution with position management
+- Risk limits and circuit breakers
+- Performance monitoring
+
+## Firestore Schema
+- `strategies/{strategy_id}`: Strategy definitions and metadata
+- `backtests/{test_id}`: Backtest results and metrics
+- `live_positions/{exchange}`: Current positions and orders
+- `evolution_state/{generation}`: Evolutionary algorithm state
